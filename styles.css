@@ -83,7 +83,7 @@ body {
 .tag { font-size: 10px; font-weight: 800; letter-spacing: .6px; padding: 3px 7px; border-radius: 6px; text-transform: uppercase; }
 .tag.HARD { background: rgba(255,90,54,.16); color: var(--hard); }
 .tag.MEDIUM { background: rgba(252,211,77,.16); color: var(--medium); }
-.tag\.MEDHARD, .tag.MED-HARD { background: rgba(255,159,67,.16); color: var(--medhard); }
+.tag.MEDHARD { background: rgba(255,159,67,.16); color: var(--medhard); }
 .tag.EASY { background: rgba(52,211,153,.16); color: var(--easy); }
 .dayinfo .meta small { color: var(--muted); font-size: 12px; }
 .daychev { color: var(--muted); font-size: 22px; }

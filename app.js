@@ -136,7 +136,8 @@
 
     // Notes
     const nb = el("div", "notesblock");
-    const lbl = el("label", null, "Session notes" + (d.tag === "HARD" && (n === 1 || n === 13) ? " · log your time here" : ""));
+    const hasTime = d.blocks.some(b => b.log === "time");
+    const lbl = el("label", null, "Session notes" + (hasTime ? " · log your time here" : ""));
     const ta = el("textarea");
     ta.placeholder = "How it felt, weights, time, anything to remember…";
     ta.value = ds.notes || "";

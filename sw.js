@@ -1,5 +1,5 @@
 // Cape Town 14-Day — offline service worker
-const CACHE = "ctgym-v1";
+const CACHE = "ctgym-v2";
 const ASSETS = [
   "./",
   "./index.html",
